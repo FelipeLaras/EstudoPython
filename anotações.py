@@ -16,3 +16,7 @@
 #list - para agrupar um conjunto de elementos
 #tupla - semelhante ao tipo list, porém, imutável
 #dic - para agrupar elementos que serão recuperados por uma chave
+
+#outras anotações
+#\n = contra barra N é uma quebra de linha
+#{:.2f} = formatar o resultado
