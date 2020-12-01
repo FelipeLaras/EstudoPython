@@ -6,13 +6,13 @@ nome = str(input('olá desconhecido, me fale o seu nome para iniciarmos: '))
 
 print("Seja bem vindo {}".format(nome))
 
-n1 = int(input('Vamos somar? -- Digite um numero: '))
+n1 = int(input('Vamos dividir? -- Digite um numero: '))
 
 print('{}'.format(n1))
 
 n2 = int(input('Certo, agora escolha um outro numero: '))
 
-soma = n1 + n2
+soma = n1 / n2
 
 print('soma de {} mais o {} é {}'.format(n1, n2, soma))
 
