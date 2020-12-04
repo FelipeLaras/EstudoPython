@@ -14,7 +14,7 @@ n2 = int(input('Certo, agora escolha um outro numero: '))
 
 soma = n1 / n2
 
-print('soma de {} mais o {} é {}'.format(n1, n2, soma))
+print('Divisão de {} mais o {} é {}'.format(n1, n2, soma))
 
 #
 # Aula  6 exercicio 4 
