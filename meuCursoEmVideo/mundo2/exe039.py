@@ -24,14 +24,14 @@ if data.year >= anoUsuario:
             idadeUsuario, anosFatante, aindafalta))
 
     elif idadeUsuario == idadeAlistamento:
-        print('Você tem {}anos, entãochegou o ano do seu Alistamento. Procure uma junta militar e faça o seu cadastro'.format(idadeUsuario))
+        print('Você tem {}anos, então chegou o ano do seu Alistamento. Procure uma junta militar e faça o seu cadastro'.format(idadeUsuario))
     else:
 
         """Calculo"""
     anosPassados = idadeUsuario - idadeAlistamento
     passou = data.year - anosPassados
 
-    print('Você tem {}anos, passou {}anos pois o seu alistamento foi {}'.format(
+    print('Você tem {}anos, então passou {}anos do o seu alistamento foi {}'.format(
         idadeUsuario,anosPassados, passou))
 else:
     print('O ano que você informou é maior que o ano que estamos. Isso quer dizer que vc ainda não nasceu!')
